@@ -1,0 +1,55 @@
+1. Newton Second Law
+hitung resultan gaya pada sebuah mobil yang memiliki massa benda 600 kg dan ketika didorong oleh tiga orang percepatannya adalah 2 m/s2!
+
+SIMPAN "massa" dengan tanpa nilai 
+SIMPAN "percepatan" dengan tanpa nilai 
+SIMPAN "gaya" dengan tanpa nilai
+
+HITUNG "massa" dikali "percepatan"
+SET "gaya" dengan hasil perkalian di atas
+
+TAMPILKAN  "gaya"
+
+
+2. Tahun Kabisat
+tentukan tahun kabisat
+
+SIMPAN "tahun" dengan tanpa nilai
+IF "tahun" mod 4 = 0
+  IF "tahun" mod 100 = 0
+    IF "tahun" mod 400 = 0
+      DISPLAY "tahun kabisat"
+    ELSE
+      DISPLAY "bukan tahun kabisat"
+  ELSE
+    DISPLAY "tahun kabisat" 
+ELSE
+  DISPLAY "bukan tahun kabisat" 
+
+
+3. Laundry Day
+menghidupkan mesin cuci setelah kesemua 20 pakaian dimasukkan
+
+SIMPAN "baju" to 20
+
+WHILE "baju" >= 0
+  DISPLAY "baju" 
+  IF "baju" lebih besar dari 0
+    DO "masukan baju lagi"
+  ELSE
+    DO "nyalakan mesin cuci"
+  HITUNG "baju" kurangi 1
+  SIMPAN hasil sebagai "baju"
+
+4. PERIKSA KUKU
+jika kuku pendek dipuji, jika panjang dihukum
+
+SIMPAN "siswa" to 40
+SIMPAN "kuku" dengan tanpa nilai
+
+WHILE "siswa" lebih besar dari 0
+  DO lihat nilai "kuku"  
+  IF "kuku" bernilai bersih
+    DO "puji siswa"
+  ELSE
+    DO "HUKUM SISWANYA !!!! NAKAL !!!!" 
