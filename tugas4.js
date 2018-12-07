@@ -1,6 +1,6 @@
-var tanggal= 4; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
-var bulan= 5; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
-var tahun= 2000; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
+var tanggal= 8; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
+var bulan= 18; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
+var tahun= 2010; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
 if ( 0 < tanggal && tanggal <= 31 && 1900 <= tahun && tahun <= 2200 ) {
 
@@ -41,6 +41,8 @@ if ( 0 < tanggal && tanggal <= 31 && 1900 <= tahun && tahun <= 2200 ) {
         case 12:
             console.log(tanggal+' Desember '+tahun);
             break;
+        default:
+            console.log("Masukkan tanggal yang valid.")
     }
 
 } else {
